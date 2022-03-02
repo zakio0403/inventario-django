@@ -1,0 +1,10 @@
+Django==3.1.2
+mod-wsgi==4.7.1
+mysqlclient==2.0.1
+Pillow==8.0.1
+djangorestframework
+markdown
+django-filter
+django-cors-headers
+django-tabbed-admin
+django-multiselectfield

@@ -1,0 +1,44 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% load static %}
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        <img src="{% static 'img/logogobernacion.png' %}" height="80px" />
+    </a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block footer %}
+    <div id="footer" style="background: #07a4a8;color: #fff;">
+        <div style="float: right;">
+            <img src="/static/img/logogobernacion.png" height="80px">
+        </div>            
+        <h1 style="color: #fff;">Gobernación del Valle del Cauca.</h1>
+        <h2 style="color: #000;">Direcci&oacute;n</strong></h2>
+            <p>Carrera 6 entre calles 9 y 10, Edificio Palacio de San Francisco</p>            
+            <p>Horario atenci&oacute;n: Lunes a jueves: Ma&ntilde;ana&nbsp; 7:30 am a 12:30 pm Tarde 1:30 pm a 5:30 pm<br />
+            Viernes:&nbsp; Ma&ntilde;ana 7:30 am a 12:30 pm&nbsp; - Tarde 1:30 pm a 4:30 pm</p>
+            
+        <h2 style="color: #000;">L&iacute;nea de atenci&oacute;n cuidadana</h2>
+            <p></p>PBX: (602) 620 00 00 - Fax: 886 0150<br />
+            L&iacute;nea Gratuita Nacional: 01-8000972033</p>
+            
+        <h2 style="color: #000;">Correo electr&oacute;nico</h2>
+            <a class="section" href="mailto:contactenos@valledelcauca.gov.co">contactenos@valledelcauca.gov.co</a><br />
+            <a class="section" href="mailto:njudiciales@valledelcauca.gov.co">njudiciales@valledelcauca.gov.co</a><br />
+            <a class="section" href="mailto:ntutelas@valledelcauca.gov.co">ntutelas@valledelcauca.gov.co</a><br />
+            <a class="section" href="mailto:nconciliaciones@valledelcauca.gov.co">nconciliaciones@valledelcauca.gov.co</a></p>
+            
+        <h2 style="color: #000;">C&oacute;digo Postal 760045</h2>
+        <div class="constructEnlaces9467">
+            <a class="section " target="_blank" href="https://www.valledelcauca.gov.co/loader.php?lServicio=Tools2&lTipo=viewpdf&id=45850" title="Enlace a Políticas de seguridad de la información y protección de datos personales">Políticas de seguridad de la información y protección de datos personales</a>
+            <a class="section "  href="https://www.valledelcauca.gov.co/publicaciones/64152/servicios-tecnologicos/" title="Enlace a Acceso a Servicios">Acceso a Servicios</a>
+            <a class="section "  href="https://www.valledelcauca.gov.co/mapa-del-sitio" title="Enlace a Mapa del sitio">Mapa del sitio</a>
+        </div>
+    </div>
+{% endblock %}
