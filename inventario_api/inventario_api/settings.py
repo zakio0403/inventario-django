@@ -96,9 +96,10 @@ WSGI_APPLICATION = 'inventario_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', #database driver for mysql on django
-        'NAME': 'inventariodb', #database name
-        'USER': 'root',  #database user
-        'PASSWORD': '12345' #database password
+        'NAME': 'zakio0403$inventariodb', #database name
+        'USER': 'zakio0403',  #database user
+        'PASSWORD': 'SwordArtOnline04', #database password
+        'HOST': 'zakio0403.mysql.pythonanywhere-services.com',
     }
 }
 
