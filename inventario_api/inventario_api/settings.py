@@ -27,7 +27,7 @@ SECRET_KEY = '4^d@*6y^pov9u1vage5^lrmwdzx$^*6=ha$mp1+e4i2(19+l$_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zakio0403.pythonanywhere.com']
 
 #CORS_ORIGIN_ALLOW_ALL=True
 # Application definition
